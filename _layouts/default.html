@@ -12,19 +12,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!--- METADADOS INFORMATIVOS --->
-		<meta name="author" content="Iago Alves da Silva">
-		<meta name="reply-to" content="el.iagows@gmail.com">
-		<meta name="description" content="Site de divulgação de livros de autores brasileiros.">
+		<meta name="author" content="{{ site.author.name }}">
+		<meta name="reply-to" content="{{ site.author.email }}">
+		<meta name="description" content="{{ site.description }}">
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/fix.css">
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/iaspp.css">
 
 		<link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/favicon.svg">
 
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-		<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
-
-		<title>{{ page.title }}</title>
+		<title>{{ site.title }}</title>
 	</head>
 	<body>
 		<header>
@@ -60,10 +57,9 @@
 		</main>
 		<footer class="iaspp-footer">
 			<div class="container-fluid">
-				<span class="text-muted">
-					copyleft <a href="http://www.wtfpl.net/" target="_blank">
-						<img height="20px" src="{{ site.baseurl }}/img/cl.svg" alt="Copyleft"></a>
-					<span>2020</span> - Não nos responsabilizamos pelo conteúdo de sites de terceiros.
+				<span class="text-muted">copyleft <a href="http://www.wtfpl.net/" target="_blank">
+						<img height="20px" src="{{ site.baseurl }}/img/cl.svg" alt="Copyleft">
+					</a><span>2020</span> - Não nos responsabilizamos pelo conteúdo de sites de terceiros.
 				</span>
 			</div>
 		</footer>
