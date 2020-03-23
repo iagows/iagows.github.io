@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Home
 ---
-
-# Título aqui
+{% include head.md %}
 
 Conteúdo aqui
+
+{% include foot.md %}
