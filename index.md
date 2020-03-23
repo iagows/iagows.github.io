@@ -7,7 +7,7 @@ Conteúdo aqui
 
 <nav class="nav-primary" role="navigation" >
     <ul>
-        {% for p in site.pages %}
+        {% for p in site.posts %}
         <li>
         	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
         </li>
