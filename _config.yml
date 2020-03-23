@@ -1,8 +1,9 @@
 theme: jekyll-theme-hacker
+title: Iagows
 description: Arduino, circuitos, programas e livros.
+
 markdown: kramdown
 
-title: Iagows
 author:
   name: Iago Alves da Silva
   email: el.iagows@gmail.com
