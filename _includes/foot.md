@@ -1,1 +1,1 @@
-copyleft <img src="img/cl.svg" alt="CopyLeft" width="20"></img> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.
+copyleft <img src="img/cl.svg" alt="CopyLeft" width="20" /> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.
