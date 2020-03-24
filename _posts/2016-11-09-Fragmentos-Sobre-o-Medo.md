@@ -1,20 +1,14 @@
 ---
-title: (sem) Você
-author: Iago Alves da Silva
-release: 15/06/2016
-pages: 118
-isbn: 978-85-5707-181-0
-email: el.iagows@gmail.com
-skoob: https://www.skoob.com.br/sem-voce-591654ed592714.html
-amazon: https://www.amazon.com.br/sem-Voc%C3%AA-Iago-Alves-Silva-ebook/dp/B01I8HSEOA/
-cover: iago-semvoce.jpg
+title: Fragmentos Sobre o Medo
+author: Renan Monteiro
+release: 09/011/2016
+pages: 96
+isbn: 978-85-5996-183-6
+editora-multifoco: https://editoramultifoco.com.br/loja/product/fragmentos-sobre-o-medo/
+cover: renan-fragmentossobreomedo.jpg
 ---
 {% include post_cover.md %}
 
-## O Gótico Pós-Moderno de Iago Alves
-
-### Por Marcos de Andrade Filho
-
-Aberto por uma Cordilheira, fechado por uma Muralha e com uma Floresta nel mezzo del camin, o proto-poeta de Iago Alves se enclausura no mundo-seu-quarto e guerreia com as palavras. Fechar-se é, todavia, o tormento do poeta. Sua essência é falar e falar é mostrar-se, revelar-se, desnudar-se e isso, não raro, desespera o poeta, sobremodo o jovem proto-poeta.
+Vivemos em uma época na qual o tempo é cada vez mais curto e passa cada vez mais depressa. O sujeito se torna cada vez mais sobrecarregado – de pessoas, informações, obrigações – e ao mesmo tempo se sente cada vez mais isolado. Daí nascem estes fragmentos, que são costurados e perpassados pela linha do medo. São curtos, leem-se rápido e apresentam problemas de nossa época, assim como problemas inerentes ao ser humano. Um desses grandes problemas é a necessidade de sair de si, o desejo de comunhão com o outro. Se ao ler algum destes fragmentos o resultado for empatia, um objetivo foi alcançado: somos agora um só.
 
 {% include post_info.md %}

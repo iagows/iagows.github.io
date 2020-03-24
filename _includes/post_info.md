@@ -15,3 +15,7 @@
 {% if page.clubeautores %} [Clube de Autores]({{ page.clubeautores }}){% endif %}
 
 {% if page.saraiva %} [Saraiva]({{ page.saraiva }}){% endif %}
+
+{% if page.cialivros %} [Cia dos Livros]({{ page.cialivros }}){% endif %}
+
+{% if page.editora-multifoco %} [Editora Multifoco]({{ page.editora-multifoco }}){% endif %}
