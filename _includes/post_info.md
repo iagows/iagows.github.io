@@ -13,3 +13,5 @@
 {% if page.amazon %} [Amazon]({{ page.amazon }}){% endif %}
 
 {% if page.clubeautores %} [Clube de Autores]({{ page.clubeautores }}){% endif %}
+
+{% if page.saraiva %} [Saraiva]({{ page.saraiva }}){% endif %}

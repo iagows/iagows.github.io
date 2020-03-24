@@ -1,0 +1,1 @@
+<img src="/img/livros/{{ page.cover }}" alt="capa do livro" width="500px" />
