@@ -1,9 +1,9 @@
 - title: Books
-  url: book
+  url: book.html
   img: book.svg
 
 - title: Apps
-  url: app
+  url: app.html
   img: app.svg
 
 - title: Wiki

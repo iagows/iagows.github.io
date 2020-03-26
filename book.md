@@ -5,7 +5,7 @@ title: Books
 
 <nav class="nav-primary" role="navigation" >
     <ul>
-        {% for p in site.posts %}
+        {% for p in site.posts.books %}
         <li>
         	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }} - {{ p.author}}</a>
         </li>
