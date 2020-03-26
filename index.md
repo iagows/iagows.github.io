@@ -1,5 +1,7 @@
 ---
 title: Home
+tags: [books, projects, tutorial]
+last_updated: 2020 03 26
 ---
 {% include head.md %}
 
