@@ -5,6 +5,7 @@ release: 30/05/2018
 cover: iago-prepare.png
 categories: apps
 play-store: https://play.google.com/store/apps/details?id=com.iaspp.prepareyourself
+tags: [filmes, tmdb]
 ---
 {% include app_post_cover.md %}
 
