@@ -6,6 +6,7 @@ pages: 96
 isbn: 978-85-5996-183-6
 editora-multifoco: https://editoramultifoco.com.br/loja/product/fragmentos-sobre-o-medo/
 cover: renan-fragmentossobreomedo.jpg
+categories: books
 ---
 {% include post_cover.md %}
 
