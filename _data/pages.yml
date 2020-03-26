@@ -1,0 +1,13 @@
+pages:
+
+  title: Books
+  url: book
+  img: book.svg
+
+  title: Apps
+  url: app
+  img: app.svg
+
+  title: Wiki
+  url: https://github.com/iagows/iagows.github.io/wiki
+  img: wiki.svg
