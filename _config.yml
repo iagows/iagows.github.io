@@ -11,4 +11,6 @@ author:
   twitter: iagows
 
 url: https://iagows.github.io/
+
+plugins: [jekyll-paginate]
 paginate: 3
