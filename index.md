@@ -18,6 +18,8 @@ Bla bla bla
 
 ___
 
+Paginator: {{ paginator }} - total pages: {{ paginator.total_pages }}
+
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
