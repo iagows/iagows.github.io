@@ -5,9 +5,9 @@ last_updated: 2020 03 26
 ---
 {% include head.md %}
 
-{% for pageData in site.data.pages %}
+{% for pagedata in site.data.pages %}
 
-<a href="{{ pageData.title }}"><img src="img/{{ pageData.img }}"/></a>
+<a href="{{ pagedata.title }}"><img src="img/{{ pagedata.img }}"/></a>
 
 {% endfor%}
 
