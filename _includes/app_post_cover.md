@@ -1,0 +1,1 @@
+<img src="/img/apps/{{ page.cover }}" alt="exemplo do app" width="500px" />
