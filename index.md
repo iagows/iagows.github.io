@@ -5,7 +5,7 @@ tags: [books, projects, tutorial]
 {% include head.md %}
 
 {% for pagedata in site.data.pages %}
-<div><a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>{{ pagedata.title }}</a></div>
+<span>><a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>{{ pagedata.title }}</a></span>
 {% endfor%}
 
 {% include foot.md %}
