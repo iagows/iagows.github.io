@@ -8,8 +8,9 @@ last_updated: 2020 03 26
 1
 
 {% for pagedata in site.data.pages %}
+<a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>
 
-<a href="{{ pagedata.title }}"><img src="img/{{ pagedata.img }}"/></a>
+{{ pagedata.title }}</a>
 
 {% endfor%}
 
