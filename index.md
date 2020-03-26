@@ -3,16 +3,9 @@ title: Home
 ---
 {% include head.md %}
 
-Conteúdo aqui
+<a href="projects"><img src="app.svg"></a>
+<a href="book"><img src="book.svg"></a>
+<a href="wiki"><img src="wiki.svg"></a>
 
-<nav class="nav-primary" role="navigation" >
-    <ul>
-        {% for p in site.posts %}
-        <li>
-        	<a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }} - {{ p.author}}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
 
 {% include foot.md %}
