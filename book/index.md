@@ -3,8 +3,6 @@ title: Books
 ---
 {% include head.md %}
 
-Conteúdo aqui
-
 <nav class="nav-primary" role="navigation" >
     <ul>
         {% for p in site.posts %}
