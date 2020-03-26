@@ -1,3 +1,3 @@
 # About
 
-Personal site for my projects
+Personal site for my projects, books and tutorials
