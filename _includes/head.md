@@ -1,6 +1,5 @@
 <header>
 	<div markdown="1">
 		# {{ page.title }}	
-		
-	</div>
+</div>
 </header>
