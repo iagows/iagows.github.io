@@ -10,16 +10,11 @@ ___
 
 ## News
 
-### Date dd-mm-yyyy
+{% for p in site.categories.news %}
+### {{ p.date }}
 
-### By "name here"
+#### By {{ p.author }}
 
-Bla bla bla
-
-___
-
-News
-
-{% for p in site.categories.news %}<a href="{{ site.baseurl }}/{{ p.url }}">{{ p.date }} - {{ p.title }}</a>{% endfor %}
+<a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>{% endfor %}
 
 {% include foot.md %}
