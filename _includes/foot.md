@@ -1,6 +1,6 @@
 <footer>
 	<div class="grid">
-		<div>
+		<div class="observation">
 			Última atualização do site: {{ site.time }}.	
 		</div>
 		<div>
