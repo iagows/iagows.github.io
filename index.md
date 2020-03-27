@@ -11,7 +11,7 @@ ___
 ## News
 
 {% for p in site.categories.news %}
-### {{ page.date | date: "%-d %B %Y" }}
+### {{ p.date | date: "%-d %B %Y" }}
 
 #### By {{ p.author }}
 
