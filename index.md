@@ -15,6 +15,8 @@ ___
 
 #### By {{ p.author }}
 
-<a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a>{% endfor %}
+{{ p.title }}
+
+{% endfor %}
 
 {% include foot.md %}
