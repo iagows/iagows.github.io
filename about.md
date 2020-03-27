@@ -1,5 +1,12 @@
 ---
+title: About
+tags: [books, projects, tutorial]
 ---
+
+## About me
+
+bla bla bla [TODO]
+
 ## Thanks to
 
 * [Github](https://github.com/)
