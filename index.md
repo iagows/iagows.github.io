@@ -20,6 +20,6 @@ ___
 
 News
 
-{% for p in site.categories.news %}<a {% if href="{{ site.baseurl }}{{ p.url }}">{{ p.date }} - {{ p.title }}</a>{% endfor %}
+{% for p in site.categories.news %}<a href="{{ site.baseurl }}{{ p.url }}">{{ p.date }} - {{ p.title }}</a>{% endfor %}
 
 {% include foot.md %}
