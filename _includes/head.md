@@ -1,3 +1,5 @@
 <header>
-	# {{ page.title }}	
+	<div markdown="1">
+		# {{ page.title }}	
+	</div>
 </header>
