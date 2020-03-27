@@ -13,10 +13,11 @@ ___
 
 ### {{ p.date | date: "%d/%m/%Y" }} - {{ p.author }}
 
-{{ p.title }}
+#### {{ p.title }}
 
 {{ p.content }}
 
 {% endfor %}
+___
 
 {% include foot.md %}
