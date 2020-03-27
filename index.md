@@ -17,6 +17,8 @@ ___
 
 {{ p.title }}
 
+{{ p.content }}
+
 {% endfor %}
 
 {% include foot.md %}
