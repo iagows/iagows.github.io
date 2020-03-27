@@ -11,14 +11,15 @@ ___
 ## News
 
 {% for p in site.categories.news %}
-### {{ p.date | date: "%-d %B %Y" }}
+<div class="news">
+### {{ p.date | date: "%d/%m/%Y" }}
 
 #### By {{ p.author }}
 
 {{ p.title }}
 
 {{ p.content }}
-
+</div>
 {% endfor %}
 
 {% include foot.md %}
