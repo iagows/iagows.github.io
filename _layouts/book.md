@@ -1,8 +1,15 @@
-## Informações:
+---
+layout: default
+---
+<img src="/img/livros/{{ page.cover }}" alt="capa do livro" width="500px" />
 
-{% if page.release %} Lançamento: {{ page.release }}{% endif %}
+{{ content }}
 
-{% if page.pages %} Páginas: {{ page.pages }}{% endif %}
+## Info:
+
+{% if page.release %} Release: {{ page.release }}{% endif %}
+
+{% if page.pages %} Pages: {{ page.pages }}{% endif %}
 
 {% if page.isbn %} ISBN: {{ page.isbn }}{% endif %}
 

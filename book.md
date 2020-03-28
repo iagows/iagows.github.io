@@ -1,8 +1,6 @@
 ---
 title: Books
 ---
-{% include head.md %}
-
 <nav class="nav-primary" role="navigation" >
     <ul>
         {% for p in site.categories.books %}
@@ -12,5 +10,3 @@ title: Books
         {% endfor %}
     </ul>
 </nav>
-
-{% include foot.md %}
