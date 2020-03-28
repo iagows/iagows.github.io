@@ -1,0 +1,18 @@
+theme: jekyll-theme-hacker
+title: Iagows
+description: Arduino, circuits, apps and books.
+
+markdown: kramdown
+
+author:
+  name: Iago Alves
+  email: el.iagows@gmail.com
+  github: iagows
+  twitter: iagows
+
+#url: iagows.github.io/
+#timezone: BR
+#encoding: UTF-8
+
+#sass:
+#  style: compressed
