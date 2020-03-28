@@ -9,4 +9,13 @@ layout: default
 
 <h2>Info:</h2>
 
-{% include book_info.md %}
+{% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
+{% if page.pages %}<p>Pages: {{ page.pages }}</p>{% endif %}
+{% if page.isbn %}<p>ISBN: {{ page.isbn }}</p>{% endif %}
+{% if page.email %}<p>[e-mail]({{ page.email }})</p>{% endif %}
+{% if page.skoob %}<p>[Skoob]({{ page.skoob }})</p>{% endif %}
+{% if page.amazon %}<p>[Amazon]({{ page.amazon }})</p>{% endif %}
+{% if page.clubeautores %}<p>[Clube de Autores]({{ page.clubeautores }})</p>{% endif %}
+{% if page.saraiva %}<p>[Saraiva]({{ page.saraiva }})</p>{% endif %}
+{% if page.cialivros %}<p>[Cia dos Livros]({{ page.cialivros }})</p>{% endif %}
+{% if page.editora-multifoco %}<p>[Editora Multifoco]({{ page.editora-multifoco }})</p>{% endif %}
