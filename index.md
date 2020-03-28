@@ -1,6 +1,7 @@
 ---
 title: Home
 tags: [books, projects, tutorial]
+layout: default
 ---
 Images 
 
@@ -18,5 +19,3 @@ ___
 {{ p.content }}
 
 {% endfor %}
-
-3
