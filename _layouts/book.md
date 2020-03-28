@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
+## by {{ page.author }}.
 
-## {{ page.author }}
 
-<img src="/img/livros/{{ page.cover }}" alt="book cover" width="500px"/>
 
 {{ content }}
 
