@@ -10,9 +10,9 @@ author:
   github: iagows
   twitter: iagows
 
-url: iagows.github.io/
-timezone: BR
-encoding: UTF-8
+#url: iagows.github.io/
+#timezone: BR
+#encoding: UTF-8
 
 #sass:
 #  style: compressed
