@@ -16,3 +16,4 @@ bla bla bla [TODO]
 * [Dev hints](https://devhints.io/jekyll)
 * [Jekyllrb](https://jekyllrb.com/docs/variables/)
 * [Alan w Smith](http://alanwsmith.com/jekyll-liquid-date-formatting-examples)
+* [Can I Use?](https://caniuse.com/)
