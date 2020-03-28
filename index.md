@@ -1,6 +1,7 @@
 ---
 title: Home
 tags: [books, projects, tutorial]
+layout: default.html
 ---
 {% for pagedata in site.data.pages %}<a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>{{ pagedata.title }}</a>{% endfor%}
 
