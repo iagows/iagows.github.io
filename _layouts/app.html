@@ -2,8 +2,8 @@
 
 {{ content }}
 
-## Informações:
+<h2>Informations: </h2>
 
-{% if page.release %} Lançamento: {{ page.release }}{% endif %}
+{% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
 
-{% if page.play-store %} [Play store]({{ page.play-store }}){% endif %}
+{% if page.play-store %}<p><a href="{{ page.play-store }}" target="_blank">Play store</a></p>{% endif %}
