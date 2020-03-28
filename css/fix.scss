@@ -1,0 +1,73 @@
+---
+---
+
+html, body {
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: #fff !important;
+
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	color: #333;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.bg-dark {
+	background-color: #222; !important;
+}
+
+.main_title {
+	font-size: 5em;
+	cursor: default;
+}
+
+.no-bg {
+	background: rgba(0,0,0,0);
+	color: #ccc;
+	border: none;
+}
+
+.invert-color {
+	filter: invert(100%);
+}
+
+.hidden {
+	display: none;
+}
+
+body > .container {
+	padding-top: 60px;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+div {
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.well {
+	padding: 2em;
+}
+
+.card.noise {
+	padding-top: 1em;
+}
+
+.text-muted {
+	cursor: default;
+}
+
+.mapboxgl-canvas {
+	position: relative !important;
+}
