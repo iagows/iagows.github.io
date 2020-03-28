@@ -12,10 +12,10 @@ layout: default
 {% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
 {% if page.pages %}<p>Pages: {{ page.pages }}</p>{% endif %}
 {% if page.isbn %}<p>ISBN: {{ page.isbn }}</p>{% endif %}
-{% if page.email %}<p>[e-mail]({{ page.email }})</p>{% endif %}
-{% if page.skoob %}<p>[Skoob]({{ page.skoob }})</p>{% endif %}
-{% if page.amazon %}<p>[Amazon]({{ page.amazon }})</p>{% endif %}
-{% if page.clubeautores %}<p>[Clube de Autores]({{ page.clubeautores }})</p>{% endif %}
-{% if page.saraiva %}<p>[Saraiva]({{ page.saraiva }})</p>{% endif %}
-{% if page.cialivros %}<p>[Cia dos Livros]({{ page.cialivros }})</p>{% endif %}
-{% if page.editora-multifoco %}<p>[Editora Multifoco]({{ page.editora-multifoco }})</p>{% endif %}
+{% if page.email %}<p><a href="mailto:{{ page.email}}?Subject=Livro" target="_top">e-mail</a></p>{% endif %}
+{% if page.skoob %}<p><a href="{{ page.skoob }}">Skoob</a></p>{% endif %}
+{% if page.amazon %}<p><a href="{{ page.amazon }}">Amazon</a></p>{% endif %}
+{% if page.clubeautores %}<p><a href="{{ page.clubeautores }}">Clube de Autores</a></p>{% endif %}
+{% if page.saraiva %}<p><a href="{{ page.saraiva }}">Saraiva</p>{% endif %}
+{% if page.cialivros %}<p><a href="{{ page.cialivros }}">Cia dos Livros</a></p>{% endif %}
+{% if page.editora-multifoco %}<p><a href="{{ page.editora-multifoco }})">Editora Multifoco</a></p>{% endif %}
