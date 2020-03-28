@@ -1,9 +1,9 @@
 ---
 title: Home
 tags: [books, projects, tutorial]
-layout: default
+layout: padrao
 ---
-{% for pagedata in site.data.pages %}<a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>{{ pagedata.title }}</a>{% endfor%}
+{% for pagedata in site.data.pages %}<a href="{{ pagedata.url }}"><img src="img/{{ pagedata.img }}"/>{{ pagedata.title }}</a>{% endfor %}
 
 ## News
 
