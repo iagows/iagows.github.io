@@ -20,7 +20,7 @@ some text here
 					<h5 class="card-title">{{ p.author }}</h5>
 					<p class="card-text">{{ p.content }}</p>
 				</div>
-				<div class="card-footer bg-transparent border-dark">{{ p.date | date: "%d/%m/%Y" }}</div>
+				<div class="card-footer bg-transparent border-dark"><small class="text-muted">{{ p.date | date: "%d/%m/%Y" }}</small></div>
 			</div>
 		</div>
 {% endfor %}
