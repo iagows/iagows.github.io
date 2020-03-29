@@ -12,7 +12,7 @@ some text here
 
 <div class="container">
 	<div class="row">
-{% for p in site.categories.news %}
+{% for p in site.categories.news limit:1 %}
 		<div class="col-sm-6 col-lg-3 py-2">
 			<div class="card h-100 border-dark mb-3" style="max-width: 18rem;">
 				<div class="card-header">{{ p.title }}</div>
