@@ -14,6 +14,7 @@ tags: [books, projects, tutorial]
 * [Dev hints](https://devhints.io/jekyll){:target="_blank"}
 * [I'd rather be writing](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html){:target="_blank"}
 * [Jekyllrb](https://jekyllrb.com/docs/variables/){:target="_blank"}
+* [Kramdown](https://kramdown.gettalong.org/){:target="_blank"}
 * [Sass](https://sass-lang.com/){:target="_blank"}
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
 
