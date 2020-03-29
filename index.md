@@ -19,8 +19,8 @@ some text here
 				<div class="card-body text-dark">
 					<h5 class="card-title">{{ p.author }}</h5>
 					<p class="card-text">{{ p.content }}</p>
-					 <p class="card-text"><small class="text-muted">{{ p.date | date: "%d/%m/%Y" }}</small></p>
 				</div>
+				<div class="card-footer bg-transparent border-dark">{{ p.date | date: "%d/%m/%Y" }}</div>
 			</div>
 		</div>
 {% endfor %}
