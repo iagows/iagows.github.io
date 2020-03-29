@@ -15,6 +15,14 @@ h1 {
 	color: #ffffff;
 }
 
-.nav-item.active > .nav-link{
+.nav-item.active > .nav-link {
 	color: #000000;
+}
+
+body, wrapper {
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
 }
