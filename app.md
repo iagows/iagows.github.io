@@ -1,5 +1,6 @@
 ---
 title: Apps
+subtitle: Some apps made by me
 ---
 <nav class="nav-primary" role="navigation" >
     <ul>

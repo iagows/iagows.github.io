@@ -1,5 +1,6 @@
 ---
 title: Books
+subtitle: Books written by me or friends
 ---
 <nav class="nav-primary" role="navigation" >
     <ul>
