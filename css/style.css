@@ -26,3 +26,22 @@ body, wrapper {
 .flex-fill {
    flex:1 1 auto;
 }
+
+.carbon {
+	background:
+		radial-gradient(black 15%, transparent 16%) 0 0,
+		radial-gradient(black 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+}
+
+.outline {
+	margin-bottom:0;
+	
+	color: white;
+	font-size: 47px;
+	-webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #23430C;
+}
