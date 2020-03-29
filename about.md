@@ -17,12 +17,9 @@ tags: [books, projects, tutorial]
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
 
 ### Hosting
+
 * [Github](https://github.com/){:target="_blank"}
 
 ### Search Engine
+
 * [Duck duck go](https://duckduckgo.com/){:target="_blank"}
-
-
-Last site update: {{ site.time }}.
-
-<a href="http://www.wtfpl.net/" target="_blank"><img src="/img/cl.svg" alt="CopyLeft" width="20" /></a><span> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
