@@ -11,7 +11,7 @@ some text here
 ## News
 
 <div class="container">
-	<div class="row">
+	<div class="row justify-content-center">
 {% for p in site.categories.news limit:10 %}
 		<div class="col-sm-6 col-lg-3 py-2">
 			<div class="card h-100 border-dark mb-3" style="max-width: 18rem;">
