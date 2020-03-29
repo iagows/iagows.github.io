@@ -12,13 +12,33 @@
 		<meta name="reply-to" content="{{ site.author.email }}">
 		<meta name="description" content="{{ site.description }}">
 
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
-		
-		<a href="http://www.wtfpl.net/" target="_blank"><img src="/img/cl.svg" alt="CopyLeft" width="20" /></a><span> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>Last site update: {{ site.time }}.
+		<header>
+			<div class="jumbotron text-center" style="margin-bottom:0; background-color: #bbbbbb;">
+				<h1>{{ page.title }}</h1>
+				<p>{{ page.subtitle }}</p> 
+			</div>
+			<nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+				<ul class="navbar-nav">
+					{% for p in site.data.pages %}
+					<li class="nav-item active">
+						<a class="nav-link" href="{{ p.url }}" {% if p.new %} target="_blank" {% endif %}>{{ p.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</nav>	
+		</header>
+		<div>
+			{{ content }}
+		</div>
+		<footer>
+			<p><a href="http://www.wtfpl.net/" target="_blank"><img src="img/cl.svg" alt="CopyLeft" width="20" /></a><span> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span></p>
+			<p>Last site update: {{ site.time }}.</p>
+		</footer>
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

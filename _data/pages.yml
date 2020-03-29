@@ -1,3 +1,6 @@
+- title: Home
+  url: /
+
 - title: Books
   url: book.html
   
@@ -6,6 +9,7 @@
   
 - title: Wiki
   url: https://github.com/iagows/iagows.github.io/wiki
+  new: true
   
 - title: About
   url: about.html
