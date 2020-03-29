@@ -1,11 +1,14 @@
 - title: Books
   url: book.html
-  img: book.svg
-
+  
 - title: Apps
   url: app.html
-  img: app.svg
-
+  
 - title: Wiki
   url: https://github.com/iagows/iagows.github.io/wiki
-  img: wiki.svg
+  
+- title: About
+  url: about.html
+
+- title: Contact
+  url: contact.html

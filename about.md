@@ -21,3 +21,8 @@ tags: [books, projects, tutorial]
 
 ### Search Engine
 * [Duck duck go](https://duckduckgo.com/){:target="_blank"}
+
+
+Last site update: {{ site.time }}.
+
+<a href="http://www.wtfpl.net/" target="_blank"><img src="/img/cl.svg" alt="CopyLeft" width="20" /></a><span> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>

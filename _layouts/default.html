@@ -12,52 +12,65 @@
 		<meta name="reply-to" content="{{ site.author.email }}">
 		<meta name="description" content="{{ site.description }}">
 
-		<link rel="stylesheet" href="css/fix.css">
-		<link rel="stylesheet" href="css/site.css">
-		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/style.scss">
 
 		<title>{{ page.title }}</title>
 	</head>
-	<body>
-		<header>
-
-			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
-			 		<span class="navbar-toggler-icon"></span>
-			 	</button>
-
-			 	<div class="collapse navbar-collapse" id="navBar">
-			 		<ul class="navbar-nav mr-auto">
-			 			<li class="nav-item">
-			 				<a class="nav-link" href="/">Home</a>
-			 			</li>
-			 			<li class="nav-item ">
-			 				<a class="nav-link" href="/books">Books</a>
-			 			</li>
-			 			<li class="nav-item ">
-			 				<a class="nav-link" href="/apps">Apps</a>
-			 			</li>
-			 			<li class="nav-item ">
-			 				<a class="nav-link" href="https://github.com/iagows/iagows.github.io/wiki" target="_blank">Wiki</a>
-			 			</li>
-			 			<li class="nav-item ">
-			 				<a class="nav-link" href="/contact">Contact</a>
-			 			</li>
-			 			<li class="nav-item ">
-			 				<a class="nav-link" href="/About">About</a>
-			 			</li>
-			 		</ul>
-			 	</div>
-			 </nav>
-		</header>
-		<h1>{{ page.title }}</h1>
-		<section class="content">
-			{{ content }}
-		</section>
-		<footer>
-			<p>Last site update: {{ site.time }}.</p>
-			<a href="http://www.wtfpl.net/" target="_blank"><img src="/img/cl.svg" alt="CopyLeft" width="20" /></a><span> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
-		</footer>
+	<body data-spy="scroll" data-target="#pagecontent" data-offset="1">
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="col-sm-3 col-4" id="pagecontent">
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#home">Home</a>
+						</li>
+					</ul>
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#books">Books</a>
+						</li>
+					</ul>
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#apps">Apps</a>
+						</li>
+					</ul>
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#about">About</a>
+						</li>
+					</ul>
+					<ul class="nav nav-pills flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="col-sm-9 col-8">
+					<div id="home">
+						<h1>Home</h1>
+						<p>Texto</p>
+					</div>
+					<div id="books">
+						<h1>Books</h1>
+						<p>Listar livros</p>
+					</div>
+					<div id="apps">
+						<h1>Apps</h1>
+						<p>Listar aplicativos</p>
+					</div>
+					<div id="about">
+						<h1>About</h1>
+						<p>Texto</p>
+					</div>
+					<div id="contact">
+						<h1>Contact</h1>
+						<p>Forms</p>
+					</div>
+				</div>
+			</div><!-- row end -->
+		</div><!-- container-fluid end-->
+		
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
