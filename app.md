@@ -3,17 +3,6 @@ title: Apps
 subtitle: Some apps made by me
 type: website
 ---
-<nav class="nav-primary" role="navigation" >
-    <ul>
-        {% for p in site.categories.apps %}
-        <li>
-			<a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }} - {{ p.author}}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
-
-
 <div class="row row-cols-1 row-cols-md-3">
 {% for p in site.categories.apps %}
 	<div class="col mb-4">
@@ -21,7 +10,7 @@ type: website
 			<a href="{{ site.baseurl }}{{ p.url }}">
 				<div class="row no-gutters">
 					<div class="col-md-4">
-						<img src="{{ p.cover }}" class="card-img" alt="App image">
+						<img src="/img/{{ p.cover }}" class="card-img" alt="App image">
 					</div>
 					<div class="col-md-8">
 						<div class="card-body">
