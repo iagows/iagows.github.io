@@ -14,7 +14,7 @@
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:locale" content="en_GB" />
 		{% if page.short-desc %}<meta property="og:description" content="{{ page.short-desc }}">{% endif %}
-		{% if page.cover %}<meta property="og:image" content="{{ site.url}}/img/{{ page.cover }}">{% endif %}
+		{% if page.cover %}<meta property="og:image" itemprop="image" content="{{ site.url}}/img/{{ page.cover }}">{% endif %}
 
 		<link rel="stylesheet" href="{{ site.url}}/css/style.css">
 
