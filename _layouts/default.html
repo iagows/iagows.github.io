@@ -11,12 +11,12 @@
 		<meta property="reply-to" content="{{ site.author.email }}">
 		<meta property="description" content="{{ site.description }}">
 		<meta property="og:title" content="{{ page.title }}">
-		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:locale" content="en_GB" />
 		{% if page.short-desc %}<meta property="og:description" content="{{ page.short-desc }}">{% endif %}
-		{% if page.cover %}<meta property="og:image" content="{{ page.cover }}">{% endif %}
+		{% if page.cover %}<meta property="og:image" content="{{ site.url}}/img/{{ page.cover }}">{% endif %}
 
-		<link rel="stylesheet" href="{{ site.baseurl}}/css/style.css">
+		<link rel="stylesheet" href="{{ site.url}}/css/style.css">
 
 		<title>{{ site.author.nickname }}</title>
 	</head>
@@ -50,7 +50,7 @@
 		</main>
 		<footer class="footer bg-dark">
 			<div class="container text-center">
-				<span class="text-muted"><a href="http://www.wtfpl.net/" target="_blank"><img src="{{ site.baseurl}}/img/cl.svg" alt="CopyLeft" width="20" /></a> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
+				<span class="text-muted"><a href="http://www.wtfpl.net/" target="_blank"><img src="{{ site.url }}/img/cl.svg" alt="CopyLeft" width="20" /></a> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
 				<p><small class="text-muted">Last site update: {{ site.time }}.</small></p>
 			</div>
 		</footer>
