@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="br">
 	<head>
-
 		<meta charset="utf-8">
 		<!--- BOOTSTRAP --->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +16,7 @@
 		{% if page.short-desc %}<meta name="og:description" content="{{ short-desc }}">{% endif %}
 		{% if page.cover %}<meta name="og:image" content="{{ page.cover }}">{% endif %}
 
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="{{ site.baseurl}}/css/style.css">
 
 		<title>{{ site.author.nickname }}</title>
 	</head>
@@ -51,7 +50,7 @@
 		</main>
 		<footer class="footer bg-dark">
 			<div class="container text-center">
-				<span class="text-muted"><a href="http://www.wtfpl.net/" target="_blank"><img src="img/cl.svg" alt="CopyLeft" width="20" /></a> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
+				<span class="text-muted"><a href="http://www.wtfpl.net/" target="_blank"><img src="{{ site.baseurl}}/img/cl.svg" alt="CopyLeft" width="20" /></a> 2020 - Não nos responsabilizamos pelo conteúdo de sites de terceiros.</span>
 				<p><small class="text-muted">Last site update: {{ site.time }}.</small></p>
 			</div>
 		</footer>
