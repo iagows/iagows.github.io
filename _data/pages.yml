@@ -2,17 +2,20 @@
   url: /
 
 - title: Books
-  url: /book.html
+  url: /book/
+
+- title: Painting
+  url: /painting/
   
 - title: Apps
-  url: /app.html
+  url: /app/
   
 - title: Wiki
   url: https://github.com/iagows/iagows.github.io/wiki
   new: true
   
 - title: About
-  url: /about.html
+  url: /about/
 
 - title: Contact
-  url: /contact.html
+  url: /contact/

@@ -6,6 +6,9 @@ cover: iago-prepare.png
 categories: apps
 play-store: https://play.google.com/store/apps/details?id=com.iaspp.prepareyourself
 tags: [filmes, tmdb]
+
 layout: app
+
+short-desc: Aplicativo sobre filmes.
 ---
 Exibição de filmes novos de acordo com o TMDb

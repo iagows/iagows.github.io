@@ -16,7 +16,8 @@ tags: [books, projects, tutorial]
 * [I'd rather be writing](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html){:target="_blank"}
 * [Jekyllrb](https://jekyllrb.com/docs/variables/){:target="_blank"}
 * [Kramdown](https://kramdown.gettalong.org/){:target="_blank"}
-* [Leaverou](https://leaverou.github.io/css3patterns/)
+* [Leaverou](https://leaverou.github.io/css3patterns/){:target="_blank"}
+* [Ogp me](https://ogp.me/#types){:target="_blank"}
 * [Sass](https://sass-lang.com/){:target="_blank"}
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
 

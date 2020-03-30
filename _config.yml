@@ -5,6 +5,7 @@ markdown: kramdown
 sass:
   style: compressed
 paginate: 3
+permalink: pretty
 
 title: Iagows
 description: Arduino, circuits, apps and books.
