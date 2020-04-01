@@ -5,7 +5,7 @@ type: book
 ---
 <br>
 
-<div class="row row-cols-1 row-cols-md-3">
+<div class="card-columns">
 {% for p in site.categories.books %}
 	{% include util_card.md %}
 {% endfor %}
