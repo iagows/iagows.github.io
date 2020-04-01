@@ -17,13 +17,8 @@ type: website
 					<small class="text-muted" style="color: #aaaaaa;">Since: {{ p.created_at }}</small>
 					<small class="text-muted" style="color: #aaaaaa;">Last update: {{ p.updated_at }}</small>
 				</p>
-				<p>
-					<a class="btn btn-secondary" data-toggle="collapse" href="#collapse{{ p.id }}" role="button" aria-expanded="false" aria-controls="collapse{{ p.id }}">Clone</a>
-					<a href="{{ p.html_url }}" class="btn btn-secondary" target="_blank">Repository</a>
-				</p>
-				<div class="collapse" id="collapse{{ p.id }}">
-					{{ p.clone_url }}
-				</div>
+				<a href="{{ p.html_url }}" class="btn btn-secondary">Repository</a>
+				<a href="{{ p.clone_url }}" class="btn btn-secondary">Clone</a>
 			</div>
 		</div>
 	</div>
