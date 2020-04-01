@@ -21,7 +21,7 @@ type: website
 					<a class="btn btn-secondary" data-toggle="collapse" href="#collapse{{ p.id }}" role="button" aria-expanded="false" aria-controls="collapse{{ p.id }}">Clone</a>
 					<a href="{{ p.html_url }}" class="btn btn-secondary" target="_blank">Repository</a>
 				</p>
-				<div class="collapse" id="collapseExample">
+				<div class="collapse" id="collapse{{ p.id }}">
 					<div class="card card-body">
 						{{ p.clone_url }}
 					</div>
