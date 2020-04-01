@@ -4,17 +4,6 @@ subtitle: My Github projects
 type: website
 ---
 <br>
-<script type="text/javascript">
-	function copyMe(argument) {
-		var copyText = document.getElementById(argument);
-		
-		var text = copyText.select();
-		text.setSelectionRange(0, 99999); /*For mobile devices*/
-		document.execCommand("copy");
-
-		copyText.setAttribute("value", "Copied");
-	}
-</script>
 <div class="card-columns">
 {% for p in site.github.public_repositories %}
 	<div class="card mb-3 text-white bg-dark h-100"> <!--  style="max-width: 540px;" -->
