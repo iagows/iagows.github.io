@@ -3,4 +3,7 @@ title: Apps
 subtitle: Some apps made by me
 type: website
 ---
-{% include util_card.md data=site.categories.apps%}
+{% capture var %}
+site.categories.apps
+{% endcapture %}
+{% include util_card.md data=var %}
