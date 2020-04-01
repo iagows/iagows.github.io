@@ -23,9 +23,7 @@ type: website
 					Button with data-target
 				</button>
 				<div class="collapse" id="collapse{{ p.id }}">
-					<div class="card card-body">
-						{{ p.clone_url }}
-					</div>
+					<input type="text" name="{{ p.id }}" id="{{ p.id }}" value="{{ p.clone_url }}">
 				</div>
 			</div>
 		</div>
