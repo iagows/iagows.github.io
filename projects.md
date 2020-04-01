@@ -7,7 +7,7 @@ type: website
 
 <div class="card-columns">
 {% for p in site.github.public_repositories %}
-	* {{ p.name }}
 	* {{ p }}
+	
 {% endfor %}
 </div>
