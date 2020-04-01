@@ -18,7 +18,15 @@ type: website
 					<small class="text-muted" style="color: #aaaaaa;">Last update: {{ p.updated_at }}</small>
 				</p>
 				<a href="{{ p.html_url }}" class="btn btn-secondary">Repository</a>
-				<a href="{{ p.clone_url }}" class="btn btn-secondary">Clone</a>
+				<button class="btn btn-secondary">Clone</button><!-- {{ p.clone_url }} -->
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse{{ p.id }}" aria-expanded="false" aria-controls="collapse{{ p.id }}">
+					Button with data-target
+				</button>
+				<div class="collapse" id="collapse{{ p.id }}">
+					<div class="card card-body">
+						{{ p.clone_url }}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
