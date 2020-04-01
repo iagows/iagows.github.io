@@ -14,7 +14,7 @@ type: website
 				<h6 class="card-subtitle mb-2 text-muted">{{ p.language }}</h6>
 				<p class="card-text">{{ p.description }}</p>
 				<p class="card-text">
-					<small class="text-muted" style="color: #aaaaaa;">Since: {{ p.created_at }}</small>
+					<small class="text-muted" style="color: #aaaaaa;">Since: {{ p.created_at }}</small><br>
 					<small class="text-muted" style="color: #aaaaaa;">Last update: {{ p.updated_at }}</small>
 				</p>
 				<a href="{{ p.html_url }}" class="btn btn-secondary">Repository</a>
