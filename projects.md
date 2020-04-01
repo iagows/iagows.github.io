@@ -4,7 +4,17 @@ subtitle: My Github projects
 type: website
 ---
 <br>
+<script type="text/javascript">
+	function copyMe(argument) {
+		var copyText = document.getElementById(argument);
+		
+		var text = copyText.select();
+		text.setSelectionRange(0, 99999); /*For mobile devices*/
+		document.execCommand("copy");
 
+		copyText.setAttribute("value", "Copied");
+	}
+</script>
 <div class="card-columns">
 {% for p in site.github.public_repositories %}
 	<div class="card mb-3 text-white bg-dark h-100"> <!--  style="max-width: 540px;" -->
@@ -17,10 +27,10 @@ type: website
 					<small class="text-muted" style="color: #aaaaaa;">Since: {{ p.created_at }}</small><br>
 					<small class="text-muted" style="color: #aaaaaa;">Last update: {{ p.updated_at }}</small>
 				</p>
-				<a href="{{ p.html_url }}" class="btn btn-secondary">Repository</a>
+				<a href="{{ p.html_url }}" class="btn btn-secondary">Visit</a>
 				<button class="btn btn-secondary" type="button" data-toggle="collapse"
 						data-target="#collapse{{ p.id }}" aria-expanded="false"
-						aria-controls="collapse{{ p.id }}">
+						aria-controls="collapse{{ p.id }}" onclick="copyMe({{ p.id }})">
 					Clone
 				</button>
 				<div class="collapse" id="collapse{{ p.id }}">

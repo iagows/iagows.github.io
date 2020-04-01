@@ -26,6 +26,7 @@ I'm just some random crazy guy that enjoys random things.
 * [Ogp me](https://ogp.me/#types){:target="_blank"}
 * [Sass](https://sass-lang.com/){:target="_blank"}
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
+* [W3Schools](https://www.w3schools.com/){:target="_blank"}
 
 ### Hosting
 
