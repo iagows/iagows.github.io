@@ -2,21 +2,28 @@
 layout: default
 type: book
 ---
-<h2>by {{ page.author }}.</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="/img/{{ page.cover }}" alt="book cover" width="500px"/>
+		</div>
+		<div class="col-md-8">
+			<h2>by {{ page.author }}.</h2>
 
-<img src="/img/{{ page.cover }}" alt="book cover" width="500px"/>
+			{{ content }}
 
-{{ content }}
+			<h2>Info:</h2>
 
-<h2>Info:</h2>
-
-{% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
-{% if page.pages %}<p>Pages: {{ page.pages }}</p>{% endif %}
-{% if page.isbn %}<p>ISBN: {{ page.isbn }}</p>{% endif %}
-{% if page.email %}<p><a href="mailto:{{ page.email}}?Subject=Livro" target="_top">e-mail</a></p>{% endif %}
-{% if page.skoob %}<p><a href="{{ page.skoob }}" target="_blank">Skoob</a></p>{% endif %}
-{% if page.amazon %}<p><a href="{{ page.amazon }}" target="_blank">Amazon</a></p>{% endif %}
-{% if page.clubeautores %}<p><a href="{{ page.clubeautores }}" target="_blank">Clube de Autores</a></p>{% endif %}
-{% if page.saraiva %}<p><a href="{{ page.saraiva }}" target="_blank">Saraiva</p>{% endif %}
-{% if page.cialivros %}<p><a href="{{ page.cialivros }}" target="_blank">Cia dos Livros</a></p>{% endif %}
-{% if page.editora-multifoco %}<p><a href="{{ page.editora-multifoco }}" target="_blank">Editora Multifoco</a></p>{% endif %}
+			{% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
+			{% if page.pages %}<p>Pages: {{ page.pages }}</p>{% endif %}
+			{% if page.isbn %}<p>ISBN: {{ page.isbn }}</p>{% endif %}
+			{% if page.email %}<p><a href="mailto:{{ page.email}}?Subject=Livro" target="_top">e-mail</a></p>{% endif %}
+			{% if page.skoob %}<p><a href="{{ page.skoob }}" target="_blank">Skoob</a></p>{% endif %}
+			{% if page.amazon %}<p><a href="{{ page.amazon }}" target="_blank">Amazon</a></p>{% endif %}
+			{% if page.clubeautores %}<p><a href="{{ page.clubeautores }}" target="_blank">Clube de Autores</a></p>{% endif %}
+			{% if page.saraiva %}<p><a href="{{ page.saraiva }}" target="_blank">Saraiva</p>{% endif %}
+			{% if page.cialivros %}<p><a href="{{ page.cialivros }}" target="_blank">Cia dos Livros</a></p>{% endif %}
+			{% if page.editora-multifoco %}<p><a href="{{ page.editora-multifoco }}" target="_blank">Editora Multifoco</a></p>{% endif %}
+		</div>
+	</div>
+</div>

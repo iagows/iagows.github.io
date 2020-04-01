@@ -7,7 +7,7 @@ type: website
 <div class="card-columns">
 {% for p in site.github.public_repositories %}
 	<div class="card mb-3 text-white bg-dark h-100"> <!--  style="max-width: 540px;" -->
-		<a href="{{ p.html_url }}" class="text-reset stretched-link text-decoration-none">
+		<a href="{{ p.html_url }}" class="text-reset stretched-link text-decoration-none" target="_blank">
 			<div class="row no-gutters">
 				<div class="card-body">
 					<h5 class="card-title">{{ p.name }}</h5>
