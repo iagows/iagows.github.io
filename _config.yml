@@ -6,6 +6,7 @@ sass:
   style: compressed
 paginate: 3
 permalink: pretty
+exclude: [example-site.github.public_repositories.json]
 
 title: Iagows
 description: Arduino, circuits, apps and books.
