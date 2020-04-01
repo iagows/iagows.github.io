@@ -6,8 +6,8 @@ type: website
 <br>
 
 {% for p in site.github.public_repositories %}
-	* {{ p }}
-	<br>
-	<hr>
-	<br>
+{{ p }}
+<br>
+<hr>
+<br>
 {% endfor %}
