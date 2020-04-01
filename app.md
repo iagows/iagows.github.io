@@ -3,7 +3,10 @@ title: Apps
 subtitle: Some apps made by me
 type: website
 ---
-{% capture var %}
-site.categories.apps
-{% endcapture %}
-{% include util_card.md data=var %}
+<br>
+
+<div class="row row-cols-1 row-cols-md-3">
+{% for p in site.categories.apps %}
+	{% include util_card.md %}
+{% endfor %}
+</div>
