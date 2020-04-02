@@ -15,6 +15,7 @@ I'm just some random crazy guy that enjoys random things.
 
 ### Code
 * [Alan w Smith](http://alanwsmith.com/jekyll-liquid-date-formatting-examples){:target="_blank"}
+* [Blogging Vision](https://www.bloggingvision.com/sylish-blockquote-css-for-blogger/#tab-con-21){:target="_blank"}
 * [Can I Use?](https://caniuse.com/){:target="_blank"}
 * [Css tricks](https://css-tricks.com/couple-takes-sticky-footer/){:target="_blank"}
 * [Code Scope](https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/)
