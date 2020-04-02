@@ -6,13 +6,13 @@ type: book
 <div class="container">
 	<div class="row no-gutters">
 		<div class="col-md-4">
-			<img src="/img/{{ page.cover }}" class="card-img" alt="book cover"/>
+			<img src="/img/{{ page.cover }}" class="card-img sombreado" alt="book cover"/>
 		</div>
 		<div class="col-md-8">
 			<div class="card-body">
 				<h2>by {{ page.author }}.</h2>
 				<blockquote class="blockquote text-justify">{{ content }}</blockquote>
-				<div class="card">
+				<div class="card sombreado">
 					<h2 class="card-title">Info:</h2>
 					<ul class="list-group list-group-flush">
 						{% if page.release %}<li class="list-group-item">Release: {{ page.release }}</li>{% endif %}
