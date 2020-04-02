@@ -29,10 +29,18 @@ I'm just some random crazy guy that enjoys random things.
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
 * [W3Schools](https://www.w3schools.com/){:target="_blank"}
 
-### Hosting
+### Images
+* [Gimp](https://www.gimp.org/)
+* [Favicon.io](https://favicon.io/favicon-generator/){:target="_blank"}
 
+### Hosting
 * [Github](https://github.com/){:target="_blank"}
 
-### Search Engine
+### OS
+* [Linux Mint](https://linuxmint.com/){:target="_blank"}
 
+### Search Engine
 * [Duck duck go](https://duckduckgo.com/){:target="_blank"}
+
+### Text editor
+* [Sublime](https://www.sublimetext.com/){:target="_blank"}
