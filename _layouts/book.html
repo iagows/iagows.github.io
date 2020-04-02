@@ -13,7 +13,7 @@ type: book
 				<h2>by {{ page.author }}.</h2>
 				<blockquote class="blockquote text-justify">{{ content }}</blockquote>
 				<h2 class="card-title">Info:</h2>
-				<p class="text-justify">
+				<div class="text-justify">
 					{% if page.release %}<p class="card-text">Release: {{ page.release }}</p>{% endif %}
 					{% if page.pages %}<p class="card-text">Pages: {{ page.pages }}</p>{% endif %}
 					{% if page.isbn %}<p class="card-text">ISBN: {{ page.isbn }}</p>{% endif %}
@@ -24,7 +24,7 @@ type: book
 					{% if page.saraiva %}<p class="card-text"><a href="{{ page.saraiva }}" target="_blank">Saraiva</a></p>{% endif %}
 					{% if page.cialivros %}<p class="card-text"><a href="{{ page.cialivros }}" target="_blank">Cia dos Livros</a></p>{% endif %}
 					{% if page.editora-multifoco %}<p class="card-text"><a href="{{ page.editora-multifoco }}" target="_blank">Editora Multifoco</a></p>{% endif %}
-				</p>
+				</div>
 			</div>
 			<button type="button" class="btn btn-secondary" onclick="history.back()">Back</button>
 		</div>
