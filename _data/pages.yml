@@ -2,26 +2,26 @@
   url: /
 
 - title: Books
-  url: book/
+  url: /book/
 
 - title: Painting
-  url: painting/
+  url: /painting/
   
 - title: Apps
-  url: app/
+  url: /app/
 
 - title: Projects
-  url: projects/
+  url: /projects/
   
 - title: Wiki
   url: https://github.com/iagows/iagows.github.io/wiki
   new: true
   
 - title: About
-  url: about/
+  url: /about/
 
 - title: Contact
-  url: contact/
+  url: /contact/
 
 - title: Estampas
-  url: estampas/
+  url: /estampas/
