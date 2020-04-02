@@ -29,12 +29,15 @@ I'm just some random crazy guy that enjoys random things.
 * [Stack overflow](https://stackoverflow.com/){:target="_blank"}
 * [W3Schools](https://www.w3schools.com/){:target="_blank"}
 
+### Hosting
+* [Github](https://github.com/){:target="_blank"}
+
 ### Images
 * [Gimp](https://www.gimp.org/)
 * [Favicon.io](https://favicon.io/favicon-generator/){:target="_blank"}
 
-### Hosting
-* [Github](https://github.com/){:target="_blank"}
+### Layout
+* [Bootstrap](https://getbootstrap.com/){:target="_blank"}
 
 ### OS
 * [Linux Mint](https://linuxmint.com/){:target="_blank"}
