@@ -44,8 +44,6 @@ body, wrapper {
 /************/
 blockquote{
 	display:block;
-	background: #fff;
-	margin: 0px 50px 0px 50px;
 	padding: 30px 30px 30px 50px;
 	position: relative;
 	font-family: Georgia, serif;
@@ -53,8 +51,8 @@ blockquote{
 	line-height: 1.2;
 	color: #666;
 	text-align: justify;
-	border-left: 15px solid #636363;
-	border-right: 5px solid #636363;
+	border-left: 0.7em solid #636363;
+	border-right: 0.2em solid #636363;
 	-moz-box-shadow: 2px 2px 15px #ccc;
 	-webkit-box-shadow: 2px 2px 15px #ccc;
 	box-shadow: 2px 2px 15px #ccc;
