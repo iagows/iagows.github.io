@@ -3,7 +3,7 @@ layout: default
 type: book
 ---
 <br>
-<div class="container">
+<div class="card container">
 	<div class="row no-gutters">
 		<div class="col-md-4">
 			<img src="/img/{{ page.cover }}" class="card-img" alt="book cover"/>
@@ -13,17 +13,17 @@ type: book
 				<h2>by {{ page.author }}.</h2>
 				<blockquote class="blockquote text-justify">{{ content }}</blockquote>
 				<h2 class="card-title">Info:</h2>
-				<div class="text-justify list-group">
-					{% if page.release %}<a href="#" class="list-group-item list-group-item-action">Release: {{ page.release }}</p>{% endif %}
-					{% if page.pages %}<a href="#" class="list-group-item list-group-item-action">Pages: {{ page.pages }}</p>{% endif %}
-					{% if page.isbn %}<a href="#" class="list-group-item list-group-item-action">ISBN: {{ page.isbn }}</p>{% endif %}
-					{% if page.email %}<a href="mailto:{{ page.email}}?Subject=Livro" target="_top" class="list-group-item list-group-item-action">e-mail</a>{% endif %}
-					{% if page.skoob %}<a href="{{ page.skoob }}" target="_blank" class="list-group-item list-group-item-action">Skoob</a>{% endif %}
-					{% if page.amazon %}<a href="{{ page.amazon }}" target="_blank" class="list-group-item list-group-item-action">Amazon</a>{% endif %}
-					{% if page.clubeautores %}<a href="{{ page.clubeautores }}" target="_blank" class="list-group-item list-group-item-action">Clube de Autores</a>{% endif %}
-					{% if page.saraiva %}<a href="{{ page.saraiva }}" target="_blank" class="list-group-item list-group-item-action">Saraiva</a>{% endif %}
-					{% if page.cialivros %}<a href="{{ page.cialivros }}" target="_blank" class="list-group-item list-group-item-action">Cia dos Livros</a>{% endif %}
-					{% if page.editora-multifoco %}<a href="{{ page.editora-multifoco }}" target="_blank" class="list-group-item list-group-item-action">Editora Multifoco</a>{% endif %}
+				<div class="text-justify">
+					{% if page.release %}<p class="card-text">Release: {{ page.release }}</p>{% endif %}
+					{% if page.pages %}<p class="card-text">Pages: {{ page.pages }}</p>{% endif %}
+					{% if page.isbn %}<p class="card-text">ISBN: {{ page.isbn }}</p>{% endif %}
+					{% if page.email %}<p class="card-text"><a href="mailto:{{ page.email}}?Subject=Livro" target="_top">e-mail</a></p>{% endif %}
+					{% if page.skoob %}<p class="card-text"><a href="{{ page.skoob }}" target="_blank">Skoob</a></p>{% endif %}
+					{% if page.amazon %}<p class="card-text"><a href="{{ page.amazon }}" target="_blank">Amazon</a></p>{% endif %}
+					{% if page.clubeautores %}<p class="card-text"><a href="{{ page.clubeautores }}" target="_blank">Clube de Autores</a></p>{% endif %}
+					{% if page.saraiva %}<p class="card-text"><a href="{{ page.saraiva }}" target="_blank">Saraiva</a></p>{% endif %}
+					{% if page.cialivros %}<p class="card-text"><a href="{{ page.cialivros }}" target="_blank">Cia dos Livros</a></p>{% endif %}
+					{% if page.editora-multifoco %}<p class="card-text"><a href="{{ page.editora-multifoco }}" target="_blank">Editora Multifoco</a></p>{% endif %}
 				</div>
 			</div>
 			<button type="button" class="btn btn-secondary" onclick="history.back()">Back</button>
