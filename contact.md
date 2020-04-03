@@ -11,17 +11,17 @@ tags: [contact, email]
 	<div class="form-row">
 		<div class="form-group col-md-6">
 			<label for="name">Name</label>
-			<input type="text" class="form-control" id="name" name="name">
+			<input type="text" class="form-control" id="name" name="name" required>
 		</div>
 		<div class="form-group col-md-6">
 			<label for="email">E-mail</label>
-      		<input type="email" class="form-control" id="email" name="email">
+      		<input type="email" class="form-control" id="email" name="email" required>
 		</div>
 	</div>
 	<div class="form-row">
 		<div class="form-group col-md-12">
 			<label for="message">Message</label>
-			<textarea class="form-control" id="message" rows="5" name="message"></textarea>
+			<textarea class="form-control" id="message" rows="5" name="message" required></textarea>
 		</div>
 	</div>
 	<input type='submit' value='Submit' />
