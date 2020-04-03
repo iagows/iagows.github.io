@@ -6,7 +6,7 @@ tags: [contact, email]
 ## Talk to me
 
 <form action="https://getsimpleform.com/messages?form_api_token=abcc6c03684597cbdfb5359cc23302bf" method="post">
-	<input type='hidden' name='redirect_to' value='http://fooey.com/thank-you.html' />
+	<input type='hidden' name='redirect_to' value='https://iagows.github.io/thankyou/' />
 	<!-- all your input fields here.... -->
 	<div class="form-row">
 		<div class="form-group col-md-6">
