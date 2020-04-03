@@ -32,7 +32,7 @@
   values:
     - name: Github
       url: https://github.com/
-  - name: Images
+- name: Images
   values:
     - name: Gimp
       url: https://www.gimp.org/
