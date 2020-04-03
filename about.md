@@ -13,37 +13,10 @@ I'm just some random crazy guy that enjoys random things.
 
 ## Thanks to
 
-### Code
-* [Alan w Smith](http://alanwsmith.com/jekyll-liquid-date-formatting-examples){:target="_blank"}
-* [Blogging Vision](https://www.bloggingvision.com/sylish-blockquote-css-for-blogger/#tab-con-21){:target="_blank"}
-* [Can I Use?](https://caniuse.com/){:target="_blank"}
-* [Css tricks](https://css-tricks.com/couple-takes-sticky-footer/){:target="_blank"}
-* [Code Scope](https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/)
-* [Dev hints](https://devhints.io/jekyll){:target="_blank"}
-* [I'd rather be writing](https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html){:target="_blank"}
-* [Jekyllrb](https://jekyllrb.com/docs/variables/){:target="_blank"}
-* [Kramdown](https://kramdown.gettalong.org/){:target="_blank"}
-* [Leaverou](https://leaverou.github.io/css3patterns/){:target="_blank"}
-* [Ogp me](https://ogp.me/#types){:target="_blank"}
-* [Sass](https://sass-lang.com/){:target="_blank"}
-* [Stack overflow](https://stackoverflow.com/){:target="_blank"}
-* [W3Schools](https://www.w3schools.com/){:target="_blank"}
+{% for t in site.data.thanks %}
+### {{ t.name }}
 
-### Hosting
-* [Github](https://github.com/){:target="_blank"}
-
-### Images
-* [Gimp](https://www.gimp.org/)
-* [Favicon.io](https://favicon.io/favicon-generator/){:target="_blank"}
-
-### Layout
-* [Bootstrap](https://getbootstrap.com/){:target="_blank"}
-
-### OS
-* [Linux Mint](https://linuxmint.com/){:target="_blank"}
-
-### Search Engine
-* [Duck duck go](https://duckduckgo.com/){:target="_blank"}
-
-### Text editor
-* [Sublime](https://www.sublimetext.com/){:target="_blank"}
+{% for v in t.values %}
+* [{{ v.name }}]({{ v.url}}){:target="_blank"}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,56 @@
+- name: code
+  values:
+    - name: Alan w Smith
+      url: http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+    - name: Blogging Vision
+      url: https://www.bloggingvision.com/sylish-blockquote-css-for-blogger/#tab-con-21
+    - name: Can I Use?
+      url: https://caniuse.com/
+    - name: Css tricks
+      url: https://css-tricks.com/couple-takes-sticky-footer/
+    - name: Code Scope
+      url: https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/
+    - name: Dev hints
+      url: https://devhints.io/jekyll
+    - name: I'd rather be writing
+      url: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html
+    - name: Jekyllrb
+      url: https://jekyllrb.com/docs/variables/
+    - name: Kramdown
+      url: https://kramdown.gettalong.org/
+    - name: Leaverou
+      url: https://leaverou.github.io/css3patterns/
+    - name: Ogp me
+      url: https://ogp.me/#types
+    - name: Sass
+      url: https://sass-lang.com/
+    - name: Stack overflow
+      url: https://stackoverflow.com/
+    - name: W3Schools
+      url: https://www.w3schools.com/
+- name: Hosting
+  values:
+    - name: Github
+      url: https://github.com/
+  - name: Images
+  values:
+    - name: Gimp
+      url: https://www.gimp.org/
+    - name: Favicon.io
+      url: https://favicon.io/favicon-generator/
+- name: Layout
+  values:
+    - name: Bootstrap
+      url: https://getbootstrap.com/
+- name: OS
+  values:
+    - name: Linux Mint
+      url: https://linuxmint.com/
+- name: Search Engine
+  values:
+    - name: Duck duck go
+      url: https://duckduckgo.com/
+- name: Text Editor
+  values:
+    - name: Sublime
+      url: https://www.sublimetext.com/
