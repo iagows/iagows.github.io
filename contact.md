@@ -24,5 +24,5 @@ tags: [contact, email]
 			<textarea class="form-control" id="message" rows="5"></textarea>
 		</div>
 	</div>
-	<input type='submit' value='Test form' />
+	<input type='submit' value='Submit' />
 </form>
