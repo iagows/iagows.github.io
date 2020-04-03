@@ -20,4 +20,5 @@ I'm just some random crazy guy that enjoys random things.
 <a href="{{ v.url }}" target="_blank" class="list-group-item list-group-item-action">{{ v.name }}</a>
 {% endfor %}
 </div>
+
 {% endfor %}

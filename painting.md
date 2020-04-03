@@ -2,6 +2,7 @@
 title: Paintings
 subtitle: Paintings made by me
 type: website
+tags: [paintings, brazil painter]
 ---
 <br>
 

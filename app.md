@@ -2,6 +2,7 @@
 title: Apps
 subtitle: Some apps made by me
 type: website
+tags: [android]
 ---
 <br>
 

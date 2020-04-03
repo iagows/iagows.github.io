@@ -2,6 +2,7 @@
 title: Projects
 subtitle: My Github projects
 type: website
+tags: [source-code, programming, code, open source]
 ---
 <br>
 <div class="card-columns">

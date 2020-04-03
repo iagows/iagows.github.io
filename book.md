@@ -2,6 +2,7 @@
 title: Books
 subtitle: Books written by me or friends
 type: book
+tags: [brazilian writter, poetry]
 ---
 <br>
 
