@@ -2,12 +2,25 @@
 layout: default
 type: website
 ---
-<img src="/img/{{ page.cover }}" alt="exemplo do app" width="500px" />
-
-{{ content }}
-
-<h2>Informations: </h2>
-
-{% if page.release %}<p>Release: {{ page.release }}</p>{% endif %}
-
-{% if page.play-store %}<p><a href="{{ page.play-store }}" target="_blank">Play store</a></p>{% endif %}
+<br>
+<div class="container">
+	<div class="row no-gutters">
+		<div class="col-md-4">
+			<img src="/img/{{ page.cover }}" class="card-img" alt="exemplo do app"/>
+		</div>
+		<div class="col-md-8">
+			<div class="card-body">
+				<h2>by {{ page.author }}.</h2>
+				<blockquote class="blockquote text-justify">{{ content }}</blockquote>
+				<div class="card sombreado">
+					<h2 class="card-title">Info:</h2>
+					<ul class="list-group list-group-flush">
+						{% if page.release %}<li class="list-group-item">Release: {{ page.release }}</li>{% endif %}
+						{% if page.play-store %}<li class="list-group-item"><a href="{{ page.play-store }}" target="_blank">Play store</a></li>{% endif %}
+					</ul>
+				</div>
+			</div>
+			<button type="button" class="btn btn-secondary" onclick="history.back()">Back</button>
+		</div>
+	</div>
+</div>
