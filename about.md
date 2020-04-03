@@ -15,7 +15,7 @@ I'm just some random crazy guy that enjoys random things.
 
 {% for t in site.data.thanks %}
 <h3>{{ t.name }}</h3>
-<div class="list-group list-group-horizontal">
+<div class="list-group">
 {% for v in t.values %}
 <a href="{{ v.url }}" target="_blank" class="list-group-item list-group-item-action">{{ v.name }}</a>
 {% endfor %}
