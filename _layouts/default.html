@@ -13,8 +13,26 @@
 		<meta property="og:title" content="{{ page.title }}">
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:locale" content="en_GB" />
-		{% if page.short-desc %}<meta property="og:description" content="{{ page.short-desc }}">{% endif %}
-		{% if page.cover %}<meta property="og:image" itemprop="image" content="{{ site.url}}/img/{{ page.cover }}">{% endif %}
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="iagows.github.io">
+		<meta name="twitter:creator" content="{{ site.author.name }}">
+		<meta name="twitter:title" content="{{ page.title }}">
+
+		{% if page.short-desc %}
+		<meta property="og:description" content="{{ page.short-desc }}">
+		<meta name="twitter:description" content="{{ page.short-desc }}">
+		{% else %}
+		<meta property="og:description" content="{{ site.description }}">
+		<meta name="twitter:description" content="{{ site.description }}">
+		{% endif %}
+		{% if page.cover %}
+		<meta property="og:image" itemprop="image" content="{{ site.url}}/img/{{ page.cover }}">
+		<meta name="twitter:image" content="{{ site.url}}/img/{{ page.cover }}">
+		{% else %}
+		<meta property="og:image" itemprop="image" content="{{ site.url}}/android-chrome-512x512.png">
+		<meta name="twitter:image" content="{{ site.url}}/android-chrome-512x512.png">
+		{% endif %}
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
