@@ -12,7 +12,7 @@ tags: [paintings, brazil painter]
 <img src="/img/paintings/{{ f.file }}">
 {% endfor %}
 {% if p.ref %}
-<p>Ref: </p><img src="/img/paintings/{{ f.ref }}">
+<p>Ref: </p><img src="/img/paintings/{{ p.ref }}">
 {% endif %}
 
 {% endfor %}
