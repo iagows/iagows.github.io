@@ -71,7 +71,7 @@
     - file: 12-b.jpg
     - file: 12-c.jpg
     - file: 12-d.jpg
-    - file: 12-e.jpg
+    - file: 12-e.jpeg
   year: 2020
 - name: 13
   files:
