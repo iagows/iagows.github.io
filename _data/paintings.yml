@@ -1,0 +1,80 @@
+- name: 1
+  files:
+    - file: 1.jpg
+  year: 2019
+- name: 2
+  files:
+    - file: 2.jpg
+  year: 2019
+- name: 3
+  files:
+    - file: 3.jpg
+  ref: 3-ref.jpg
+  year: 2019
+- name: 4
+  files:
+    - file: 4.jpg
+  ref: 4.ref.jpg
+  year: 2019
+- name: 5
+  files:
+    - file: 5.jpg
+  year: 2019
+- name: 6
+  files:
+    - file: 6.jpg
+    - file: 6-a.jpg
+    - file: 6-b.jpg
+    - file: 6-c.jpg
+  year: 2019
+- name: 7
+  files:
+    - file: 7.jpg
+    - file: 7-a.jpg
+    - file: 7-b.jpg
+    - file: 7-c.jpg
+  ref: 7-ref.jpg
+  year: 2019
+- name: 8
+  files:
+    - file: 8.jpg
+    - file: 8-a.jpg
+    - file: 8-b.jpg
+  ref: 8-ref.jpg
+  year: 2019
+- name: 9
+  files:
+    - file: 9.jpg
+    - file: 9-a.jpg
+  ref: 9-ref.jpg
+  year: 2019
+- name: 10
+  files:
+    - file: 10.jpg
+    - file: 10-a.jpg
+    - file: 10-b.jpg
+    - file: 10-c.jpg
+    - file: 10-d.jpg
+    - file: 10-e.jpg
+  ref: 10-ref.jpg
+  year: 2019
+- name: 11
+  files:
+    - file: 11.jpg
+    - file: 11-a.jpg
+  ref: 11-ref.jpg
+  year: 2019
+- name: 12
+  files:
+    - file: 12.jpg
+    - file: 12-a.jpg
+    - file: 12-b.jpg
+    - file: 12-c.jpg
+    - file: 12-d.jpg
+    - file: 12-e.jpg
+  year: 2020
+- name: 13
+  files:
+    - file: 13.jpg
+  ref: 13-ref.jpg
+  year: 2020

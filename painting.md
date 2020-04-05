@@ -6,8 +6,13 @@ tags: [paintings, brazil painter]
 ---
 <br>
 
-<div class="card-columns">
-{% for p in site.categories.paintings %}
-	{% include util_card.md %}
+{% for p in site.data.paintings %}
+<h3>{{ p.name }} - {{ p.year }}</h3>
+{% for f in p.files %}
+<img src="/img/paintings/{{ f.file }}">
 {% endfor %}
-</div>
+{% if p.ref %}
+<p>Ref: </p><img src="/img/paintings/{{ f.ref }}">
+{% endif %}
+
+{% endfor %}
