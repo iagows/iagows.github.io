@@ -32,11 +32,11 @@ type: website
 								{% for s in page.steps %}
 									{% if counter == 0%}
 										<div class="carousel-item active">
-											<img src="/img/{{ s.file }}" class="d-block w-100" alt="...">
+											<img src="/img/{{ s.file }}" class="d-block w-100" alt="step {{ counter }}">
 										</div>
 									{% else %}
 										<div class="carousel-item">
-											<img src="/img/{{ s.file }}" class="d-block w-100" alt="...">
+											<img src="/img/{{ s.file }}" class="d-block w-100" alt="step {{ counter }}">
 										</div>
 									{% endif %}
 									{% assign counter = counter | plus: 1 %}
