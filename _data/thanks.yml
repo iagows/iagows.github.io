@@ -14,12 +14,14 @@
       url: https://devhints.io/jekyll
     - name: I'd rather be writing
       url: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_posts.html
-    - name: Jekyllrb
+    - name: Jekyll
       url: https://jekyllrb.com/docs/variables/
     - name: Kramdown
       url: https://kramdown.gettalong.org/
     - name: Leaverou
       url: https://leaverou.github.io/css3patterns/
+    - name: Liquid
+      url: https://shopify.github.io/liquid/
     - name: Ogp me
       url: https://ogp.me/#types
     - name: Sass
