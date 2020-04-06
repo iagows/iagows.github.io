@@ -10,15 +10,18 @@ type: website
 		</div>
 		<div class="col-md-8">
 			<div class="card-body">
-				<h2>by {{ page.author }}.</h2>
+				<h2 class="card-title">by {{ page.author }}.</h2>
 				{% if page.list %}
 				<div class="card sombreado">
 					<!-- carousel -->
 				</div>
 				{% endif %}
 				{% if page.ref %}
-				<div class="card sombreado">
-					<img src="/img/{{ page.ref }}" class="card-img rounded-iagows" alt="original image">
+				<div class="card">
+					<h2 class="card-title">Reference</h2>
+					<div class="card sombreado">
+						<img src="/img/{{ page.ref }}" class="card-img rounded-iagows" alt="original image">
+					</div>
 				</div>
 				{% endif %}
 			</div>
