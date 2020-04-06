@@ -10,7 +10,7 @@ steps:
   - file: q12-a.jpg
   - file: q12-b.jpg
   - file: q12-c.jpg
-  - file: q12-d.jpg
-  - file: q12-e.jpeg
+  - file: q12-d.jpeg
+  - file: q12-e.jpg
 short-desc: Quadro.
 ---
