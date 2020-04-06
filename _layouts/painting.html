@@ -11,13 +11,16 @@ type: website
 		<div class="col-md-8">
 			<div class="card-body">
 				<h2>by {{ page.author }}.</h2>
+				{% if page.list %}
 				<div class="card sombreado">
-					<h2 class="card-title">Info:</h2>
-					<ul class="list-group list-group-flush">
-						{% if page.release %}<li class="list-group-item">Release: {{ page.release }}</li>{% endif %}
-						{% if page.google-play %}<li class="list-group-item"><a href="{{ page.google-play }}" target="_blank">Google Play</a></li>{% endif %}
-					</ul>
+					<!-- carousel -->
 				</div>
+				{% endif %}
+				{% if page.ref %}
+				<div class="card sombreado">
+					<!-- referência -->
+				</div>
+				{% endif %}
 			</div>
 			<button type="button" class="btn btn-secondary" onclick="history.back()">Back</button>
 		</div>
